@@ -287,6 +287,10 @@ a {
   .index .header-wrapper .container .wrapper .logo {
     display: inline-block;
   }
+  .index .header-wrapper .container .wrapper .logo > li > a > img {
+    width: 45px;
+    height: 45px;
+  }
   .index .header-wrapper .container .wrapper .logo > li > h1 {
     display: none;
   }

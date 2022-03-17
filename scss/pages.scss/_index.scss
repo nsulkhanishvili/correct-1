@@ -130,6 +130,11 @@
                         display: inline-block;
 
                         &>li {
+                            &>a>img {
+                                width: 45px;
+                                height: 45px;
+                            }
+
                             &>h1 {
                                 display: none;
                             }
@@ -444,10 +449,10 @@
             .container {
                 display: block;
 
-                &>a>img{
+                &>a>img {
                     margin-bottom: 20px;
                 }
-                
+
                 .content {
                     display: block;
                     text-align: left;
