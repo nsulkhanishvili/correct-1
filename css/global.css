@@ -197,6 +197,12 @@ a {
   font-weight: bold;
 }
 
+@media (max-width: 450px) {
+  .index .header-wrapper .container .wrapper .logo > li > h1 {
+    margin-top: 30px;
+  }
+}
+
 .index .header-wrapper .container .wrapper .menu-ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -213,6 +219,12 @@ a {
   font-size: 25px;
   margin-left: 10px;
   color: #D1EBEB;
+}
+
+@media (max-width: 450px) {
+  .index .header-wrapper .container .wrapper .menu-ul > li > .nav-a {
+    margin-right: 15px;
+  }
 }
 
 .index .header-wrapper .container .wrapper .burger-icon {
@@ -246,6 +258,7 @@ a {
   }
   .index .header-wrapper .container .wrapper .menu-ul > li > .nav-a {
     display: block;
+    font-size: 20px;
     line-height: 30px;
   }
   .index .header-wrapper .container .wrapper > .burger-icon {
@@ -270,7 +283,7 @@ a {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 380px) {
   .index .header-wrapper .container .wrapper .logo {
     display: inline-block;
   }
@@ -552,40 +565,28 @@ a {
   margin-bottom: 20px;
 }
 
-@media (max-width: 450px) {
-  .index .footer-wrapper .container .content > h5 {
-    font-size: 24px;
-    margin-left: 14px;
-  }
-}
-
 .index .footer-wrapper .container .content .icon > a > img {
   margin-left: 20px;
 }
 
-@media (max-width: 535px) {
-  .index .footer-wrapper .container .content {
-    width: 240px;
-  }
-}
-
-@media (max-width: 450px) {
-  .index .footer-wrapper .container .content {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-top: 15px;
-    text-align: center;
-  }
-}
-
 @media (max-width: 450px) {
   .index .footer-wrapper .container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    display: block;
+  }
+  .index .footer-wrapper .container > a > img {
+    margin-bottom: 20px;
+  }
+  .index .footer-wrapper .container .content {
+    display: block;
+    text-align: left;
+  }
+  .index .footer-wrapper .container .content > h5 {
+    font-size: 18px;
+  }
+  .index .footer-wrapper .container .content .icon > a > img {
+    width: 35px;
+    height: 35px;
+    margin-left: 0;
   }
 }
 /*# sourceMappingURL=global.css.map */
