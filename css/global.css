@@ -379,7 +379,7 @@ a {
 
 .index .section-wrapper .container .click .block2 .lable > label {
   width: 250px;
-  padding: 25px 10px;
+  padding: 26px 10px;
   background-color: #254E58;
   color: #D1EBEB;
   font-size: 25px;
@@ -448,7 +448,6 @@ a {
   .index .section-wrapper .container .click .block2 > a {
     width: 120px;
     font-size: 16px;
-    padding: 27px 10px;
   }
   .index .section-wrapper .container .butt-div > button {
     width: 210px;
