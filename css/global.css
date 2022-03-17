@@ -455,6 +455,10 @@ a {
     height: 40px;
     font-size: 20px;
   }
+  .index .section-wrapper .container .butt-div > button > img {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 @media (max-width: 450px) {
